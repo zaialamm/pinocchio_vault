@@ -5,6 +5,8 @@ use pinocchio::
 };
 
 use pinocchio_system::instructions::Transfer;
+
+use core::mem::size_of;
  
 pub struct DepositAccounts<'a> {
     pub owner: &'a AccountInfo,
